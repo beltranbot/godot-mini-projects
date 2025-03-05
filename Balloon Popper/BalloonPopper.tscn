@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=3 uid="uid://dbjkccbk2qnb3"]
+
+[ext_resource type="Script" uid="uid://cnlqre44mj514" path="res://Balloon Popper/BallonManager.gd" id="1_8r3wg"]
+[ext_resource type="PackedScene" uid="uid://yylhke7lj8dh" path="res://Balloon Popper/balloon.tscn" id="2_dhm31"]
+
+[node name="Main" type="Node3D"]
+script = ExtResource("1_8r3wg")
+
+[node name="Balloon" parent="." instance=ExtResource("2_dhm31")]
+
+[node name="Balloon2" parent="." instance=ExtResource("2_dhm31")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.534606, 0.98685, -0.000205755)
+
+[node name="Balloon3" parent="." instance=ExtResource("2_dhm31")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.29281, 0.765184, 0.00342655)
+
+[node name="Balloon4" parent="." instance=ExtResource("2_dhm31")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.625195, -1.08438, -0.00418615)
+
+[node name="Balloon5" parent="." instance=ExtResource("2_dhm31")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.52733, -0.683959, 0.00443482)
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2.44652)
+current = true
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.849193, 0.319814, 0.420226, -2.58661e-08, -0.795759, 0.605614, 0.528083, 0.514283, 0.675753, 0.466043, 4.79356, 2.43912)
