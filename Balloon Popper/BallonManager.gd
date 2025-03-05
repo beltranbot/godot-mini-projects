@@ -1,7 +1,7 @@
 extends Node3D
 
-var score: int = 0
+var _score: int = 0
 
 func increase_score(amount):
-	score += amount
-	print("Score: ", score)
+	_score += amount
+	print("Score: ", _score)
