@@ -1,8 +1,8 @@
 extends Area3D
 
-var _clicks_to_pop: int = 3
-var _size_increase: float = 0.2
-var _score_to_give: int = 1
+@export var _clicks_to_pop: int = 3
+@export var _size_increase: float = 0.2
+@export var _score_to_give: int = 1
 
 var _event: InputEvent
 
